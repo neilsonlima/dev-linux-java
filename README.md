@@ -21,7 +21,7 @@ Para criar um projeto Spring Boot simples de "Hello World" usando apenas o termi
 1. **Criar a estrutura básica do projeto**:
    
    ```sh
-   spring init --dependencies=web my-hello-world
+   spring init --dependencies=web,devtools,actuator my-hello-world
    cd my-hello-world
    ```
 
