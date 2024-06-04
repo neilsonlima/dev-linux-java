@@ -73,7 +73,7 @@ Para criar um projeto Spring Boot simples de "Hello World" usando apenas o termi
 1. **Criar o Projeto com Dependências**:
 
    ```sh
-   spring init --build=gradle --dependencies=web,devtools,actuator my-hello-world
+   spring init --dependencies=web,devtools,actuator my-hello-world
    cd my-hello-world
    ```
 
