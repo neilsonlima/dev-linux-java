@@ -20,7 +20,7 @@ Para criar um projeto Spring Boot simples de "Hello World" usando apenas o termi
    ```sh
    sdk list java
    ```
-
+      
 4. **Instalar o JDK** (substitua `17.0.11-amzn` pela versão desejada):
    
    ```sh
@@ -31,6 +31,12 @@ Para criar um projeto Spring Boot simples de "Hello World" usando apenas o termi
    
    ```sh
    sdk default java 17.0.11-amzn
+   ```
+   
+6. **Instalar o Spring Boot CLI**:
+   
+   ```sh
+   sdk install springboot
    ```
 
 #### Passo 2. Configuração da Variável de Ambiente JAVA_HOME
@@ -158,63 +164,3 @@ my-hello-world
 └── target
 ```
 Seguindo este roteiro, você terá o Java instalado corretamente usando o SDKMAN, configurará a variável de ambiente `JAVA_HOME` e criará e executará um projeto Spring Boot usando Gradle no Ubuntu.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Passo 4: Compilar e Executar o Projeto
-
-1. **Compilar o projeto**:
-   
-   O projeto criado pelo Spring Boot CLI já vem configurado com o Maven Wrapper, então você pode usar o comando abaixo para compilar:
-
-   ```sh
-   ./mvnw clean install
-   ```
-
-2. **Executar o projeto**:
-   
-   Após a compilação, você pode executar o aplicativo:
-
-   ```sh
-   ./mvnw spring-boot:run
-   ```
-
-### Passo 5: Testar a Aplicação
-
-Abra o navegador ou use `curl` para acessar a aplicação:
-
-```sh
-curl http://localhost:8080/
-```
-
-Você deverá ver a mensagem "Hello, World!" retornada pelo seu aplicativo Spring Boot.
-
-
-
-Seguindo esses passos, você terá criado um projeto Spring Boot simples de "Hello World" usando apenas o terminal do Linux.
